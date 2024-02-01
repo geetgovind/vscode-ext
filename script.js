@@ -2,5 +2,5 @@
 function toggleTheme() {
   const htmlElement = document.querySelector("html");
   htmlElement.dataset.bsTheme =
-    htmlElement.dataset.bsTheme === "dark" ? "light" : "dark";
+    htmlElement.dataset.bsTheme === "light" ? "dark" : "light";
 }
