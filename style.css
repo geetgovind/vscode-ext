@@ -46,7 +46,3 @@ body {
 .right-border {
     border-right: 1px solid lightgrey;
 }
-#main{
-    backdrop-filter: blur(10px);
-    background-color:;
-}
