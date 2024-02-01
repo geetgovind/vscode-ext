@@ -1,8 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap");
 
+body {
+    font-family: "Asul", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    
+    /* background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg); */
+    background-size: cover;
+    /* background-position: center; */
+    
+    
+    /* width: 100%; */
+    height: 100vh;
+    @media screen and (max-width: 480px) {
+     padding: 0.8em;
+    }
+   }
+.video-bg {
+    position: fixed;
+    z-index: -5;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    
+    video {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+    }
+   }
+.asul-bold {
+    font-family: "Asul", serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
-.bg-nav{
+.bg-nav {
     background-color: rgba(0, 152, 255, 0.3);
 }
-.right-border{
+
+.right-border {
     border-right: 1px solid lightgrey;
+}
+#main{
+    backdrop-filter: blur(10px);
+    background-color:;
 }
